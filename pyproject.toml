@@ -7,7 +7,10 @@ authors = [
     { name = "Asad Ibrahim", email = "142805001+asadibrahim206@users.noreply.github.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "fastapi>=0.143.0",
+    "uvicorn>=0.54.0",
+]
 
 [project.scripts]
 backend = "backend:main"
